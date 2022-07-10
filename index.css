@@ -1,0 +1,159 @@
+* {
+    /* border: 0.5px solid black; */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    font-size: 2vh; 
+    text-align: center;
+}
+
+#hd-links p {
+    color: #E5E7EB;
+    font-size: 12px;
+    font-size: 1.5vh;
+}
+
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    min-width: 800px;
+}
+
+#header {
+    width: 100%;
+    height: 8vh;
+    margin: 0;
+    padding: 0 14%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F2937;
+}
+
+#hd-logo {
+    font-size: 24px;
+    font-size: 3vh;
+    color: #F9FAF8;
+}
+
+#hd-links {
+    display: flex;
+    flex: 0 2 auto;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.hd-link {
+    padding: 0;
+    width: 33%;
+}
+
+#hero {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin: 0;
+    padding: 5% 14%;
+    box-sizing: border-box;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-txt {
+    color: #F9FAF8;
+    width: 50%;
+    height: 100%;
+}
+
+#hero-txt p {
+    text-align: left;
+
+}
+
+h1 {
+    font-weight: extra-bold;
+    font-size: 36px;
+    font-size: 6vh;
+
+}
+
+button {
+    background: #3882F6;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    padding: 1% 5%;
+    border-radius: 5px;
+    font-size: 12px;
+    font-size: 1.5vh;
+    font-weight: bold;
+    margin-top: 1vh;
+    border: none;
+}
+
+#hero-img {
+    width: 50%;
+    height: 100%;
+    background: grey;
+}
+
+#info * {
+    /* border: 0.5px solid black; */
+}
+
+#info {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    background: white;
+    
+}
+
+#info-txt {
+    margin: 4vh 0;
+    height: 10%;
+}
+
+#info-cont {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 50%;
+}
+
+.info-block {
+    display: block;
+    height: 90%;
+    width: 20%;
+}
+
+.info-img {
+    height: 70%;
+    width: 95%;
+    border: 0.3vh solid #3882F6;
+    border-radius: 5%;
+}
+
+#quote-block {
+    background: grey;
+    height: 20px;
+    width: 100%;
+}
