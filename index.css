@@ -158,16 +158,19 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    flex: 1 1 auto;
     align-items: center;
     height: 90%;
     width: 20%;
 }
 
-.info-block p {
+.info-txt p {
     color: black;
-    width: 90%
 }
 
+/* body * {
+    border: 1px solid black;
+} */
 .info-img {
     height: 16vh;
     width: 16vh;
@@ -177,14 +180,20 @@ button:hover {
     background-size:cover;
 }
 
+.info-txt {
+    height: 20%;
+    width: 70%;
+}
+
 #info-img-1 {
     background-image: url("images/sleepfru.jpg");
-
 }
 
 #info-img-2 {
     background-image: url("images/alertfru.jpg");
     background-position: right bottom;
+    height: 16vh;
+    width: 16vh;
 }
 
 #info-img-3 {
